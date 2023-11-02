@@ -1,0 +1,198 @@
+/* opacity is used for fading and ranges from 0-1 */
+/* transtion takes 2 values css property and time in sec */
+
+.subcribe-button {
+  background-color: rgb(166, 14, 14);
+  color: white;
+  border: none;
+  border-radius: 2px;
+  cursor: pointer;
+  transition: opacity 0.15s;
+  margin-left: 10px;
+  margin-right: 8px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  padding-left: 8px;
+  padding-right: 8px;
+}
+
+.subcribe-button:hover {
+  opacity: 0.8;
+}
+.subcribe-button:active {
+  opacity: 0.5;
+}
+
+#join-button {
+  background-color: white;
+  border-color: rgb(28, 28, 180);
+  border-style: solid;
+  border-width: 1px;
+  color: rgb(116, 116, 190);
+  width: 62px;
+  height: 36px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-right: 8px;
+  vertical-align: top;
+  transition: background-color 0.15s, color 0.15s;
+}
+
+#join-button:hover {
+  background-color: rgb(41, 118, 214);
+  color: white;
+}
+#join-button:active {
+  opacity: 0.7;
+}
+
+.tweet-button {
+  background-color: rgba(11, 188, 205, 0.463);
+  border-color: white;
+  border-width: 1px;
+  border-style: solid;
+  border: none;
+  border-radius: 100px;
+  height: 32px;
+  width: 70px;
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+  transition: box-shadow 0.15s;
+}
+
+.tweet-button:hover {
+  box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.5);
+}
+
+#request-button {
+  background-color: black;
+  border-width: 2px;
+  color: white;
+  border: none;
+  height: 32px;
+  width: 120px;
+  cursor: pointer;
+  margin-right: 8px;
+}
+
+#request-button:hover {
+  opacity: 0.8;
+}
+
+.cart-button {
+  /* margin-left: 8px; */
+  background-color: rgb(255, 216, 20);
+  border: none;
+  height: 32px;
+  width: 130px;
+  border-radius: 100px;
+  cursor: pointer;
+  transition: background-color 0.5s;
+}
+
+.cart-button:hover {
+  background-color: rgb(201, 227, 3);
+}
+
+.buy-button {
+  margin-left: 8px;
+  background-color: rgb(255, 164, 28);
+  border: none;
+  height: 32px;
+  width: 130px;
+  border-radius: 100px;
+  cursor: pointer;
+}
+
+#linkedin-button {
+  margin-left: 8px;
+  background-color: rgb(10, 102, 194);
+  color: white;
+  border-radius: 100px;
+  border-width: 1px;
+  height: 32px;
+  width: 200px;
+  border: none;
+  cursor: pointer;
+  transition: color 0.15s, background-color 0.15s;
+}
+
+#linkedin-button:hover {
+  color: white;
+  background-color: rgb(5, 60, 116);
+}
+
+.save-button {
+  margin-left: 8px;
+  margin-top: 8px;
+  background-color: white;
+  border-radius: 100px;
+  border-color: rgb(85, 85, 225);
+  border-width: 1px;
+  color: rgb(10, 102, 194);
+  height: 30px;
+  width: 55px;
+  cursor: pointer;
+  transition: background-color 0.15s, border-width 0.15s;
+}
+
+.save-button:hover {
+  background-color: rgb(164, 164, 212);
+  border-width: 2px;
+}
+
+.text-1 {
+  color: black;
+  font-weight: bold;
+  font-size: large;
+}
+
+.numbers {
+  padding: 0 0 0 0;
+  background-color: white;
+  color: blue;
+  border: none;
+  margin-right: 4px;
+  border-bottom: 1px solid blue;
+}
+
+.nav {
+  margin-right: 5px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 6px;
+  padding-bottom: 6px;
+}
+
+#Stretch-button {
+  margin-left: 2px;
+  margin-top: 2px;
+  padding-left: 4px;
+  padding-right: 4px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  border-radius: 100px;
+  color: white;
+  background-color: green;
+  border: none;
+  cursor: pointer;
+  transition: padding 0.15s;
+}
+
+#Stretch-button:hover {
+  padding: 8px 10px 8px 10px;
+}
+
+.one-button{
+  margin-right: 10px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-top: 4px;
+  padding-bottom: 4px;
+  cursor: pointer;
+  border: none ;
+  color: white;
+  background-color: green;
+  transition: padding 0.15s;
+}
