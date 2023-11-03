@@ -1,0 +1,23 @@
+.thumbnail {
+  width: 300px;
+ border-radius: 150px;
+object-position: center;
+}
+
+.search-bar{
+  font-size: 20px;
+  border-radius: 20px;
+  border: none;
+  padding-left: 10px;
+  padding-right: 100px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  box-shadow: 5px 5px 10px rgba(235, 9, 9, 0.5);;
+}
+.agree-button{
+  color: white;
+  background-color: rgb(44, 119, 175);
+  border-radius: 30px;
+  border: none;
+  padding: 5px 50px 5px 50px;
+}
